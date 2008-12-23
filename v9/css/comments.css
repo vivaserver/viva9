@@ -41,3 +41,11 @@
   text-align: center;
   font-size: 150%;
 }
+
+p.notice {
+  clear: both;
+  margin: 2.5em 0;
+  text-align: center;
+  font-weight: bold;
+}
+
