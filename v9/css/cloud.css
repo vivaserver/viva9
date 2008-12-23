@@ -1,19 +1,19 @@
-a.cloud1 {
+/* tag colors is per-site */
+
+#side li a.cloud1 {
   font-size: 80%;
-  /* color is per-site*/
 }
 
-a.cloud2 {
+#side li a.cloud2 {
   font-size: 110%;
   font-weight: bold;
-  /* color is per-site*/
 }
 
-a.cloud3 {
+#side li a.cloud3 {
   font-size: 130%;
 }
 
-a.cloud4 {
+#side li a.cloud4 {
   font-size: 155%;
   font-weight: bold;
 }

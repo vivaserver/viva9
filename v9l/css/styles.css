@@ -62,11 +62,7 @@ ul#pager a:hover, ul#pager .current {
 
 /* completes cloud.css */
 
-a.cloud1 {
-  color: #73C3DE;
-}
-
-a.cloud2 {
+#side li a.cloud1, #side li a.cloud2 {
   color: #73C3DE;
 }
 
