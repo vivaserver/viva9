@@ -1,0 +1,82 @@
+/* ------------------------------------------------------------------------------ */
+/*       (c)2008 por Cristian R. Arroyo [cristian.arroyo@vivaserver.com.ar]       */
+/* ------------------------------------------------------------------------------ */
+
+#opine {
+  border-top: 2px dotted #ccc;
+  padding-top: 15px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+#opine h3 {
+  float: left;
+  font-weight: bold;
+}
+
+#opine a:hover {
+  text-decoration: none;
+}
+
+#opine span {
+  float: right;
+  font-weight: normal;
+  font-size: 95%;
+  background: url(info.gif) no-repeat left center;
+  padding-left: 18px;
+  margin-top: 3px;
+}
+
+#opine strong {
+  color: #AE1500;
+  font-weight: normal;
+}
+
+#opine label {
+  float: left;
+  width: 190px;
+  font-size: 110%;
+  text-align: right;
+  padding: 8px;
+}
+
+#opine p {
+  clear: left;
+  text-align: right;
+}
+
+#opine .note {
+  font-size: 90%;
+}
+
+#opine .submit {
+  width: 330px;
+}
+
+select, input, textarea {
+  font: 99% "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+input.text {
+  border-top: 2px solid #ccc;
+  width: 300px;
+}
+
+textarea.required, input.required {
+  border-top: 2px solid #AE1500;
+}
+
+input.user {
+  background: #fff url(user.gif) no-repeat left center;
+  padding-left: 24px;
+}
+
+input.web {
+  background: #fff url(web.gif) no-repeat left center;
+  padding-left: 24px;
+}
+
+input.email {
+  background: #fff url(email.gif) no-repeat left center;
+  padding-left: 24px;
+}

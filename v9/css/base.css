@@ -1,0 +1,232 @@
+/* ------------------------------------------------------------------------------ */
+/*       (c)2008 por Cristian R. Arroyo [cristian.arroyo@vivaserver.com.ar]       */
+/* ------------------------------------------------------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 5px;
+  /* color & background gfx are per-site*/
+}
+
+code {
+  color: #000;
+  font-family: 'courier new', courier, monospace;
+}
+
+pre {
+  background: #0C1021;
+  display: block;
+  margin: 0 0 1em 0;
+  padding: 5px;
+  overflow: auto;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+pre code {
+  color: #F2D62C;
+  font-weight: bold;
+}
+
+#cse-search-box {
+  text-align: right;
+  padding-top: 25px;
+}
+
+#cse-search-box input {
+  height: 25px;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px 2px 2px;  
+}
+
+#cse-search-box .button{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+#top {
+  color: #eeeeee;
+  height: 50px;
+}
+
+#top a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+#top a:hover {
+  text-decoration: underline;
+}
+
+#top li {
+  display: inline;
+  font-size: 80%;
+  margin-right: 10px;
+}
+
+#top li strong {
+  text-transform: uppercase;
+}
+
+#top h1 {
+  color: #eeeeee;
+  margin: 0 40px 0 0;
+  padding: 0;
+  text-align: right;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#top h2 {
+  color: #eeeeee;
+  margin: 0 40px 0 0;
+  padding: 0;
+  text-align: right;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-size: 100%;
+}
+
+#top p {
+  font-size: 80%;
+  margin: 0;
+}
+
+#top ul {
+  margin-top: 5px;
+}
+
+#top .span-1, #top .span-2 {
+  margin-top: 5px;
+}
+
+#top .span-1 p {
+  padding-left: 10px;
+}
+
+#top .xmundo {
+  background: url(xmundo.gif) no-repeat right center;
+}
+
+#header {
+  /* all defined per-site*/
+}
+
+.ads728 {
+  margin: 10px 0;
+}
+
+.ads728 p {
+  width: 728px;
+  margin: 0 auto;
+}
+
+.ads728 p.ad90 {
+  border: 2px solid white;
+  margin-bottom: 5px;
+}
+
+.ads728 p.ad15 {
+  height: 16px;
+  padding-left: 32px;
+  /* background gfx is per-site  */
+}
+
+#content {
+  color: #333333;
+  border-top: 1px dotted silver;
+  padding-top: 25px;
+  width: 958px;
+  margin: 25px auto 0;
+}
+
+#feed {
+  background: url(rss.gif) no-repeat left top;
+  padding-left: 55px;
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+#feed h1 a, #feed h2 a {
+  text-decoration: underline;
+}
+
+#feed h1 a:hover, #feed h2 a:hover {
+  text-decoration: none;
+}
+
+#feed h1 {
+  font-size: 150%;
+  margin-top: -5px;
+}
+
+#feed h1 a {
+  color: #ef4822;
+}
+
+#feed h2 {
+  font-size: 110%;
+}
+
+#feed h2 a {
+  color: black;
+}
+
+#feed p {
+  margin-top: -40px;
+  text-align: right;
+}
+
+.ad336 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#main {
+  padding-right: 20px;
+}
+
+#main .alone {
+  margin-top: 10px;
+}
+
+#side .alone {
+  margin-bottom: 15px;
+}
+
+blockquote {
+  background-color: white;
+  padding: 0 1.5em;
+  margin-right: 0;
+  margin-left: 0;
+  border-top: 1px dashed silver;
+  border-bottom: 1px dashed silver;
+  border-left: 3px solid silver;
+  border-right: 1px solid silver;
+  font: italic 110% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote p {
+  margin-top: 1em;
+}
+
+/* more about (tag)... */
+a.tag {
+  font-size: 110%;
+  padding-left: 18px;
+  margin-left: 5px;
+  background: url(tag.gif) no-repeat left bottom;
+}
+
+.clear {
+  clear: both;
+}

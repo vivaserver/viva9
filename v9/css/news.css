@@ -1,0 +1,132 @@
+/* ------------------------------------------------------------------------------ */
+/*       (c)2008 por Cristian R. Arroyo [cristian.arroyo@vivaserver.com.ar]       */
+/* ------------------------------------------------------------------------------ */
+
+.news {
+  border-bottom: 1px dotted silver;
+  padding-bottom: 1.5em;
+  margin-bottom: 3em;
+}
+
+.news a, #side a, #footer a, #opine a {
+  /* link color is per-site  */
+}
+
+.news a:hover {
+  text-decoration: none;
+}
+
+.news h1 {
+  font-size: 225%;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.news h1 a {
+  color: #000;
+  text-decoration: none;
+}
+.news h1 a:hover {
+  text-decoration: underline;
+}
+
+.news h5 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 90%;
+  margin: 5px 0 0 0;
+}
+
+.news h5 a {
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 110%;
+}
+
+.news ul.tags {
+  padding: 5px 0;
+  margin: 0 0 5px;
+}
+.news ul.tags li {
+  display: inline;
+  font-size: 90%;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+.news ul.tags a {
+  font-size: 110%;
+  padding-left: 18px;
+  background: url(tag.gif) no-repeat;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+
+.news p {
+  font-size: 110%;
+}
+
+.news p a {
+  font-weight: bold;
+}
+
+.news p > img, .news p > object {
+  margin: 0 auto;
+  display: block;
+}
+
+.news img, .news object {
+  border: 4px solid white;
+}
+
+.news ul.more {
+  margin: 0;
+}
+
+.news ul.more a, .news ul.tags a {
+  text-decoration: none;
+}
+
+.news ul.more a:hover, .news ul.tags a:hover {
+  text-decoration: underline;
+}
+
+.news ul.more li {
+  display: inline;
+  padding-left: 20px;
+  margin-right: 10px;
+  height: 18px;
+  font-size: 95%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.news ul.more li.hour {
+  background: url(hour.gif) no-repeat;
+}
+
+.news ul.more li.comments {
+  background: url(comments.gif) no-repeat;
+}
+
+.news ul.more li.nocomments {
+  background: url(nocomments.gif) no-repeat;
+}
+
+.news ul.more li.new {
+  background: url(new.gif) no-repeat;
+}
+
+.sticky h1 a {
+  text-decoration: underline;
+}
+
+.sticky h1 a:hover {
+  text-decoration: none;
+}
+
+.alone {
+  /* only used for individual news page */
+  border: none;
+  margin: 0;
+}

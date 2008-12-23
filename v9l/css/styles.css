@@ -1,0 +1,77 @@
+@import url('../../v9/css/base.css');
+@import url('../../v9/css/news.css');
+@import url('../../v9/css/side.css');
+@import url('../../v9/css/cloud.css');
+@import url('../../v9/css/pager.css');
+@import url('../../v9/css/comments.css');
+@import url('../../v9/css/form.css');
+@import url('../../v9/css/footer.css');
+
+/* ------------------------------------------------------------------------------ */
+/*       (c)2008 por Cristian R. Arroyo [cristian.arroyo@vivaserver.com.ar]       */
+/* ------------------------------------------------------------------------------ */
+
+/* completes base.css */
+
+body {
+  background: #f4fffb url(bg.png) repeat-x;
+}
+
+#header .container {
+  height: 104px;
+  background: url(logo.png) no-repeat;
+}
+
+#header .logo h1 {
+  text-indent: -9999px;
+  height: 50px;
+}
+
+#header .logo h2 {
+  color: #2a7696;
+  font-size: 95%;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.ads728 p.ad15 {
+  background: url(adtag.gif) no-repeat left center;
+}
+
+/* completes news.css */
+
+.news a, #side a, #footer a, #opine a {
+  color: #2a7696;
+}
+
+.sticky {
+  background-image: url(sticky.png);
+}
+
+/* completes pager.css */
+
+ul#pager a {
+  color: #73C3DE;
+  border-color: #73C3DE;
+}
+
+ul#pager a:hover, ul#pager .current {
+  border-color: #2A7696;
+  background-color: #2A7696;
+}
+
+/* completes cloud.css */
+
+a.cloud1 {
+  color: #73C3DE;
+}
+
+a.cloud2 {
+  color: #73C3DE;
+}
+
+/* completes comments.css */
+
+.comment a {
+  color: #2a7696;
+}
