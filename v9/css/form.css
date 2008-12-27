@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-#opine span {
+#opine span.markdown {
   float: right;
   font-weight: normal;
   font-size: 95%;
@@ -34,7 +34,7 @@
 
 #opine label {
   float: left;
-  width: 190px;
+  width: 215px;
   font-size: 110%;
   text-align: right;
   padding: 8px;
@@ -42,15 +42,11 @@
 
 #opine p {
   clear: left;
-  text-align: right;
-}
-
-#opine .note {
-  font-size: 90%;
 }
 
 #opine .submit {
-  width: 330px;
+  margin-left: 3px;
+  width: 315px;
 }
 
 select, input, textarea {
@@ -59,7 +55,8 @@ select, input, textarea {
 
 input.text {
   border-top: 2px solid #ccc;
-  width: 300px;
+  margin-left: 3px;
+  width: 285px;
 }
 
 textarea.required, input.required {
