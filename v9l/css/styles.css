@@ -44,10 +44,6 @@ body {
   color: #2a7696;
 }
 
-.sticky {
-  background-image: url(sticky.png);
-}
-
 /* completes pager.css */
 
 ul#pager a {

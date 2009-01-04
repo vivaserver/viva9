@@ -14,11 +14,11 @@
 /* completes base.css */
 
 body {
-  background: #f2f5e4 url(bg.png) repeat-x;
+  background: #eef2fb url(bg.png) repeat-x;
 }
 
 #header .container {
-  height: 106px;
+  height: 120px;
   background: url(logo.png) no-repeat;
 }
 
@@ -28,9 +28,11 @@ body {
 }
 
 #header .logo h2 {
-  color: #405012;
-  font-size: 95%;
-  padding-left: 110px;
+  display: none;
+}
+
+#cse-search-box {
+  padding-top: 45px;
 }
 
 .ads728 p.ad15 {
@@ -40,29 +42,29 @@ body {
 /* completes news.css */
 
 .news a, #side a, #footer a, #opine a {
-  color: #405012;
+  color: #000066;
 }
 
 /* completes pager.css */
 
 ul#pager a {
-  color: #405012;
-  border-color: #b0cf57;
+  color: #6666CC;
+  border-color: #6666CC;
 }
 
 ul#pager a:hover, ul#pager .current {
-  border-color: #405012;
-  background-color: #405012;
+  border-color: #000066;
+  background-color: #000066;
 }
 
 /* completes cloud.css */
 
 #side li a.cloud1, #side li a.cloud2 {
-  color: #b0cf57;
+  color: #6666CC;
 }
 
 /* completes comments.css */
 
 .comment a {
-  color: #405012;
+  color: #000066;
 }

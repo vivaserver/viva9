@@ -117,6 +117,10 @@
   background: url(new.gif) no-repeat;
 }
 
+.sticky {
+  background-image: url(sticky.gif);
+}
+
 .sticky h1 a {
   text-decoration: underline;
 }
