@@ -8,6 +8,7 @@ The original designs where made using **The GIMP 2.4** and for the XHTML and CSS
 See the current state of the designs online now at:
 
 * [VivaLinux!](http://www.vivalinux.com.ar/)
+* [VivaBSD](http://www.vivabsd.com.ar/)
 * [VivaHardware!](http://www.vivahardware.com.ar/) and
 * [VivaPHP!](http://www.vivaphp.com.ar/)
 
