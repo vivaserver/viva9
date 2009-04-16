@@ -152,7 +152,6 @@ pre code {
 #feed {
   background: url(rss.gif) no-repeat left top;
   padding-left: 55px;
-  margin-bottom: 20px;
   height: 60px;
 }
 
@@ -187,8 +186,9 @@ pre code {
 }
 
 .ad336 {
-  text-align: center;
-  margin: 20px 0;
+  width: 336px;
+  margin: 10px auto;
+  margin-bottom: 30px;
 }
 
 #main {
