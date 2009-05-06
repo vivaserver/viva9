@@ -17,6 +17,10 @@ body {
   background: #f4fffb url(bg.png) repeat-x;
 }
 
+a, a:hover {
+  color: #2a7696;
+}
+
 #header .container {
   height: 104px;
   background: url(logo.png) no-repeat;
@@ -38,12 +42,6 @@ body {
   background: url(adtag.gif) no-repeat left center;
 }
 
-/* completes news.css */
-
-.news a, #side a, #footer a, #opine a {
-  color: #2a7696;
-}
-
 /* completes pager.css */
 
 ul#pager a {
@@ -60,10 +58,4 @@ ul#pager a:hover, ul#pager .current {
 
 #side li a.cloud1, #side li a.cloud2 {
   color: #73C3DE;
-}
-
-/* completes comments.css */
-
-.comment a {
-  color: #2a7696;
 }
