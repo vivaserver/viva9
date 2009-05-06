@@ -12,6 +12,82 @@ body {
   /* color & background gfx are per-site*/
 }
 
+/* vivanet top 1 link */
+
+#vivanet {
+  color: #333;
+  height: 24px;
+  font-size: 110%;
+}
+
+#vivanet p {
+  padding-left: 18px;
+  padding-top: 4px;
+}
+
+.bsd {
+  background: #FFF1ED;
+  border-top: 4px solid #6e1313;
+}
+
+.bsd a {
+  color: #6E1313;
+  text-decoration: none;
+}
+
+.hard {
+  background: #f2f5e4;
+  border-top: 4px solid #7d974e;
+}
+
+.hard a {
+  color: #405012;
+  text-decoration: none;
+}
+
+.php {
+  background: #eef2fb;
+  border-top: 4px solid #7377b5;
+}
+
+.php a {
+  color: #000066;
+  text-decoration: none;
+}
+
+.linux {
+  background: #f4fffb;
+  border-top: 4px solid #73c3de;
+}
+
+.linux a {
+  color: #2a7696;
+  text-decoration: none;
+}
+
+a.comments  {
+  background: url(comments.gif) no-repeat left;
+  padding-left: 18px;
+  margin-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+a.new  {
+  background: url(new.gif) no-repeat left;
+  padding-left: 18px;
+  margin-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+a.under {
+  text-decoration: underline;
+}
+
+a.under:hover {
+  text-decoration: none;
+}
+
 code {
   color: #000;
   font-family: 'courier new', courier, monospace;
@@ -52,12 +128,12 @@ pre code {
 }
 
 #top {
-  color: #eeeeee;
-  height: 50px;
+  color: #eee;
+  height: 80px;
 }
 
-#top a {
-  color: #eeeeee;
+#top .span-1 a, #top .span-2 a {
+  color: #eee;
   text-decoration: none;
 }
 
@@ -76,7 +152,7 @@ pre code {
 }
 
 #top h1 {
-  color: #eeeeee;
+  color: #eee;
   margin: 0 40px 0 0;
   padding: 0;
   text-align: right;
@@ -87,7 +163,7 @@ pre code {
 }
 
 #top h2 {
-  color: #eeeeee;
+  color: #eee;
   margin: 0 40px 0 0;
   padding: 0;
   text-align: right;
@@ -230,3 +306,5 @@ a.tag {
 .clear {
   clear: both;
 }
+
+
