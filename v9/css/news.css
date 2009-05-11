@@ -6,6 +6,7 @@
   border-bottom: 1px dotted silver;
   padding-bottom: 1.5em;
   margin-bottom: 3em;
+  font-size: 107%;
 }
 
 .news a, #side a, #footer a, #opine a {
@@ -41,6 +42,10 @@
   font-variant: small-caps;
   font-weight: bold;
   letter-spacing: 1px;
+  font-size: 110%;
+}
+
+.news li {
   font-size: 110%;
 }
 
