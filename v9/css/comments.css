@@ -24,19 +24,37 @@
   font-weight: normal;
   font-style: normal;
   margin-bottom: 10px;
+  color: #999;
 }
 
-.comment .body {
+.body {
   padding-left: 65px;
 }
 
-.comment .avatar {
+.body h3 {
+  float: right;
+  font-size: 225%;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.body h3 a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.body h3 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.avatar {
   background: url(avatar.gif) no-repeat center top;
   width: 50px;
   float: left;
 }
 
-.comment .avatar p {
+.avatar p {
   padding-top: 50px;
   text-align: center;
   font-size: 150%;
