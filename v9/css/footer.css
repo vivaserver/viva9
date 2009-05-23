@@ -21,6 +21,74 @@
   font-weight: bold;
 }
 
-#footer li {
-  list-style-type: circle;
+/* Viva sites links exchange */
+
+#xchange {
+  margin-top: 25px;
+}
+
+#xchange a {
+  text-decoration: none;
+}
+#xchange a:hover {
+  text-decoration: underline;
+}
+#xchange h3 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#xchange li {
+  line-height: 95%;
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+#xchange ul {
+  margin: 0;
+  padding-left: 0.25em;
+}
+
+/* 3-column layout extracted from Malo - CSS Library */
+.dp33 {
+  float:left; display: inline; *margin-left:-0.04em; /* IE margin hack */
+  width:33.33%;
+}
+
+#bsd, #hard, #linux, #php {
+  min-height: 275px;
+}
+
+#bsd {
+  background: #FFF1ED;
+  border-top: 4px solid #6e1313;
+  padding: 0.5em 1em;
+}
+#bsd a {
+  color: #600000;
+}
+
+#hard {
+  background: #f2f5e4;
+  border-top: 4px solid #7d974e;
+  padding: 0.5em 1em;
+}
+#hard a {
+  color: #405012;
+}
+
+#linux {
+  background: #f4fffb;
+  border-top: 4px solid #73c3de;
+  padding: 0.5em 1em;
+}
+#linux a {
+  color: #014962;
+}
+
+#php {
+  background: #eef2fb;
+  border-top: 4px solid #7377b5;
+  padding: 0.5em 1em;
+}
+#php a {
+  color: #000066;
 }
