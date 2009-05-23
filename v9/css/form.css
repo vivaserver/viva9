@@ -77,3 +77,7 @@ input.email {
   background: #fff url(email.gif) no-repeat left center;
   padding-left: 24px;
 }
+input.gravatar {
+  background: #fff url(gravatar.gif) no-repeat left center;
+  padding-left: 24px;
+}

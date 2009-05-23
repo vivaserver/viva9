@@ -35,6 +35,10 @@ body {
   text-decoration: none;
 }
 
+.bsd a:hover {
+  color: #6E1313;
+}
+
 .hard {
   background: #f2f5e4;
   border-top: 4px solid #7d974e;
@@ -43,6 +47,10 @@ body {
 .hard a {
   color: #405012;
   text-decoration: none;
+}
+
+.hard a:hover {
+  color: #405012;
 }
 
 .php {
@@ -55,6 +63,10 @@ body {
   text-decoration: none;
 }
 
+.php a:hover {
+  color: #000066;
+}
+
 .linux {
   background: #f4fffb;
   border-top: 4px solid #73c3de;
@@ -63,6 +75,10 @@ body {
 .linux a {
   color: #2a7696;
   text-decoration: none;
+}
+
+.linux a:hover {
+  color: #2a7696;
 }
 
 a.comments  {
@@ -119,7 +135,7 @@ pre code {
   font-size: 18px;
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 2px 2px 2px;  
+  padding: 2px 2px 2px;
 }
 
 #cse-search-box .button{
