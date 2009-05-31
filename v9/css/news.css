@@ -99,42 +99,38 @@
   border: 4px solid white;
 }
 
-.news ul.more {
+ul.more {
   margin: 0;
 }
-
-.news ul.more a, .news ul.tags a {
+ul.more a {
   text-decoration: none;
 }
-
-.news ul.more a:hover, .news ul.tags a:hover {
+ul.more a:hover {
   text-decoration: underline;
 }
-
-.news ul.more li {
+ul.more li {
   display: inline;
-  padding-left: 20px;
   margin-right: 10px;
   height: 18px;
   font-size: 95%;
   padding-top: 2px;
   padding-bottom: 2px;
 }
-
-.news ul.more li.hour {
+ul.more li.hour {
   background: url(hour.gif) no-repeat;
+  padding-left: 20px;
 }
-
-.news ul.more li.comments {
+ul.more li.comments {
   background: url(comments.gif) no-repeat;
+  padding-left: 20px;
 }
-
-.news ul.more li.nocomments {
+ul.more li.nocomments {
   background: url(nocomments.gif) no-repeat;
+  padding-left: 20px;
 }
-
-.news ul.more li.new {
+ul.more li.new {
   background: url(new.gif) no-repeat;
+  padding-left: 20px;
 }
 
 .sticky {
@@ -149,8 +145,8 @@
   text-decoration: none;
 }
 
+/* only used for individual news page */
 .alone {
-  /* only used for individual news page */
   border: none;
   margin: 0;
 }

@@ -311,16 +311,6 @@ blockquote p {
   margin-top: 1em;
 }
 
-/* more about (tag)... */
-a.tag {
-  font-size: 110%;
-  padding-left: 18px;
-  margin-left: 5px;
-  background: url(tag.gif) no-repeat left bottom;
-}
-
 .clear {
   clear: both;
 }
-
-
