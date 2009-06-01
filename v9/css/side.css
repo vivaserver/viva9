@@ -38,6 +38,17 @@
 }
 
 
+ul#tags {
+  text-align: center;
+}
+ul#tags a {
+  text-transform: uppercase;
+}
+ul#tags li {
+  display: inline;
+  margin: 0 10px;
+}
+
 /* 5-column related news by tag */
 
 .related h3 {
