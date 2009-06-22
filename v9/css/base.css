@@ -1,6 +1,4 @@
-/* ------------------------------------------------------------------------------ */
-/*       (c)2008 por Cristian R. Arroyo [cristian.arroyo@vivaserver.com.ar]       */
-/* ------------------------------------------------------------------------------ */
+/*  (c)2008  by  Cristian R. Arroyo  [cristian.arroyo@vivaserver.com.ar]  */
 
 * {
   margin: 0;
@@ -12,7 +10,113 @@ body {
   /* color & background gfx are per-site*/
 }
 
-/* vivanet top 1 link */
+blockquote {
+  background-color: white;
+  padding: 0 1.5em;
+  margin-right: 0;
+  margin-left: 0;
+  border-top: 1px dashed silver;
+  border-bottom: 1px dashed silver;
+  border-left: 3px solid silver;
+  border-right: 1px solid silver;
+  font: italic 110% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote p {
+  margin-top: 1em;
+}
+
+code {
+  color: #000;
+  font-family: 'courier new', courier, monospace;
+}
+
+pre {
+  background: #0C1021;
+  display: block;
+  margin: 0 0 1em 0;
+  padding: 5px;
+  overflow: auto;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+pre code {
+  color: #F2D62C;
+  font-weight: bold;
+}
+
+/* @group top wrapper */
+
+#top {
+  color: #eee;
+  height: 80px;
+}
+
+#top .span-1 a, #top .span-2 a {
+  color: #eee;
+  text-decoration: none;
+}
+
+#top a:hover {
+  text-decoration: underline;
+}
+
+#top h1 {
+  color: #eee;
+  margin: 0 40px 0 0;
+  padding: 0;
+  text-align: right;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#top h2 {
+  color: #eee;
+  margin: 0 40px 0 0;
+  padding: 0;
+  text-align: right;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-size: 100%;
+}
+
+#top li {
+  display: inline;
+  font-size: 80%;
+  margin-right: 10px;
+}
+
+#top li strong {
+  text-transform: uppercase;
+}
+
+#top p {
+  font-size: 80%;
+  margin: 0;
+}
+
+#top ul {
+  margin-top: 5px;
+}
+
+#top .span-1, #top .span-2 {
+  margin-top: 5px;
+}
+
+#top .span-1 p {
+  padding-left: 10px;
+}
+
+#top .xmundo {
+  background: url(xmundo.gif) no-repeat right center;
+}
+
+/* @end */
+
+/* @group top vivanet 1 link */
 
 #vivanet {
   color: #333;
@@ -81,47 +185,13 @@ body {
   color: #2a7696;
 }
 
-a.comments  {
-  background: url(comments.gif) no-repeat left;
-  padding-left: 18px;
-  margin-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-a.new  {
-  background: url(new.gif) no-repeat left;
-  padding-left: 18px;
-  margin-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
+/* @end */
 
-a.under {
-  text-decoration: underline;
-}
+/* @group google custom search */
 
-a.under:hover {
-  text-decoration: none;
-}
-
-code {
-  color: #000;
-  font-family: 'courier new', courier, monospace;
-}
-
-pre {
-  background: #0C1021;
-  display: block;
-  margin: 0 0 1em 0;
-  padding: 5px;
-  overflow: auto;
-  overflow-x: scroll;
-  width: 100%;
-}
-
-pre code {
-  color: #F2D62C;
-  font-weight: bold;
+#cse-search-box .button{
+  font-size: 12px;
+  margin-left: 10px;
 }
 
 #cse-search-box {
@@ -138,79 +208,18 @@ pre code {
   padding: 2px 2px 2px;
 }
 
-#cse-search-box .button{
-  font-size: 12px;
-  margin-left: 10px;
+/* @end */
+
+/* @group adsense blocks */
+
+.ad336 {
+  width: 336px;
+  margin: 10px auto;
+  margin-bottom: 30px;
 }
 
-#top {
-  color: #eee;
-  height: 80px;
-}
-
-#top .span-1 a, #top .span-2 a {
-  color: #eee;
-  text-decoration: none;
-}
-
-#top a:hover {
-  text-decoration: underline;
-}
-
-#top li {
-  display: inline;
-  font-size: 80%;
-  margin-right: 10px;
-}
-
-#top li strong {
-  text-transform: uppercase;
-}
-
-#top h1 {
-  color: #eee;
-  margin: 0 40px 0 0;
-  padding: 0;
-  text-align: right;
-  letter-spacing: 2px;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 125%;
-}
-
-#top h2 {
-  color: #eee;
-  margin: 0 40px 0 0;
-  padding: 0;
-  text-align: right;
-  letter-spacing: 2px;
-  font-variant: small-caps;
-  font-size: 100%;
-}
-
-#top p {
-  font-size: 80%;
-  margin: 0;
-}
-
-#top ul {
-  margin-top: 5px;
-}
-
-#top .span-1, #top .span-2 {
-  margin-top: 5px;
-}
-
-#top .span-1 p {
-  padding-left: 10px;
-}
-
-#top .xmundo {
-  background: url(xmundo.gif) no-repeat right center;
-}
-
-#header {
-  /* all defined per-site*/
+.boxed {
+  border: 2px solid white;
 }
 
 .ads728 {
@@ -233,13 +242,9 @@ pre code {
   /* background gfx is per-site  */
 }
 
-#content {
-  color: #333333;
-  border-top: 1px dotted silver;
-  padding-top: 25px;
-  width: 958px;
-  margin: 25px auto 0;
-}
+/* @end */
+
+/* @group feedburner */
 
 #feed {
   background: url(rss.gif) no-repeat left top;
@@ -277,10 +282,34 @@ pre code {
   text-align: right;
 }
 
-.ad336 {
-  width: 336px;
-  margin: 10px auto;
-  margin-bottom: 30px;
+/* @end */
+
+a.comments  {
+  background: url(comments.gif) no-repeat left;
+  padding-left: 18px;
+  margin-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+a.new  {
+  background: url(new.gif) no-repeat left;
+  padding-left: 18px;
+  margin-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#header {
+  /* all defined per-site*/
+}
+
+#content {
+  color: #333333;
+  border-top: 1px dotted silver;
+  padding-top: 25px;
+  width: 958px;
+  margin: 25px auto 0;
 }
 
 #main {
@@ -293,22 +322,6 @@ pre code {
 
 #side .alone {
   margin-bottom: 15px;
-}
-
-blockquote {
-  background-color: white;
-  padding: 0 1.5em;
-  margin-right: 0;
-  margin-left: 0;
-  border-top: 1px dashed silver;
-  border-bottom: 1px dashed silver;
-  border-left: 3px solid silver;
-  border-right: 1px solid silver;
-  font: italic 110% Georgia, "Times New Roman", Times, serif;
-}
-
-blockquote p {
-  margin-top: 1em;
 }
 
 .clear {
