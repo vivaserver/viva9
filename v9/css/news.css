@@ -136,6 +136,42 @@ ul.more li.new {
   padding-left: 20px;
 }
 
+/* @group share links */
+
+.share {
+  text-align: center;
+}
+.share a {
+  font-weight: bold;
+  padding-left: 20px;
+}
+.share li {
+  display: inline;
+  margin-right: 10px;
+}
+.share input {
+  font-size: 95%;
+}
+.share label {
+  font-weight: normal;
+  font-size: 95%;
+}
+
+li.twitter {
+  background: url(twitter.png) no-repeat;
+}
+li.facebook {
+  background: url(facebook.png) no-repeat;
+}
+li.meneame {
+  background: url(meneame.png) no-repeat;
+}
+li.delicious {
+  background: url(delicious.png) no-repeat;
+}
+
+/* @end */
+
 .sticky {
   background-image: url(sticky.gif);
 }
