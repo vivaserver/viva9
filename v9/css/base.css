@@ -248,8 +248,9 @@ pre code {
 
 #feed {
   background: url(rss.gif) no-repeat left top;
-  padding-left: 55px;
-  height: 60px;
+  border-bottom: 1px dotted silver;
+  padding-left: 60px;
+  margin-bottom: 20px;
 }
 
 #feed h1 a, #feed h2 a {
@@ -261,19 +262,39 @@ pre code {
 }
 
 #feed h1 {
-  font-size: 150%;
-  margin-top: -5px;
+  color: #333;
+  font-size: 250%;
+  font-weight: bold;
+  padding: 0;
+  float: left;
+  margin: 0 12px 0 0;
+  letter-spacing: 1px;
 }
 
-#feed h1 a {
-  color: #ef4822;
-}
-
-#feed h2 {
-  font-size: 110%;
+#feed h4 {
+  font-size: 125%;
+  float: left;
+  font-weight: bold;
+  color: #333;
+  padding-top: 7px;
+  margin: 0;
+  font-variant: small-caps;
+  letter-spacing: 1px;
 }
 
 #feed h2 a {
+  color: #ef4822;
+  font-weight: bold;
+}
+
+#feed h2 {
+  font-size: 125%;
+  margin-left: 5px;
+  clear: left;
+  padding: 0;
+}
+
+#feed h1 a {
   color: black;
 }
 
