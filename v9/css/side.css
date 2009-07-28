@@ -24,7 +24,8 @@
 }
 
 #side li {
-  list-style-type: square;
+  list-style-type: none;
+  margin-bottom: 3px;
 }
 
 /* @group categories list */
