@@ -11,8 +11,12 @@
 }
 
 #side h3 {
+  border-top: 1px dotted silver;
   text-transform: uppercase;
-  font-size: 125%;
+  font-size: 120%;
+  padding-left: 10px;
+  clear: left;
+  padding-top: 10px;
 }
 
 #side h3 a {
@@ -23,15 +27,24 @@
   list-style-type: square;
 }
 
+/* @group categories list */
+
 #side ul.categories {
   font-variant: small-caps;
-  font-size: 120%;
-  letter-spacing: 1px;
+  color: silver;
 }
 
 #side ul.categories a {
+  font-size: 125%;
   font-weight: bold;
+  letter-spacing: 1px;
 }
+
+#side ul.categories li {
+  list-style-type: none;
+}
+
+/* @end */
 
 #side #weekhot a {
   font-weight: bold;
