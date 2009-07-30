@@ -47,7 +47,7 @@
 
 /* @end */
 
-#side #weekhot a {
+#weekhot a.hotter {
   font-weight: bold;
 }
 
