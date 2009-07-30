@@ -83,6 +83,11 @@
   background: url(tag.gif) no-repeat;
   padding-top: 1px;
   padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.news ul.tags a:hover {
+  text-decoration: underline;
 }
 
 .news p {
