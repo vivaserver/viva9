@@ -169,6 +169,7 @@ ul.more li.new {
 
 .share {
   text-align: center;
+  margin-bottom: 25px;
 }
 .share a {
   font-weight: bold;

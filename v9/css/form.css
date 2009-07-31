@@ -68,6 +68,11 @@ input.user {
   padding-left: 24px;
 }
 
+input.permalink {
+  background: #fff url(tag.gif) no-repeat 5px center;
+  padding-left: 24px;
+}
+
 input.web {
   background: #fff url(web.gif) no-repeat left center;
   padding-left: 24px;
