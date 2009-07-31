@@ -1,19 +1,39 @@
 /* tag colors is per-site */
 
-#side li a.cloud1 {
+
+/* @group tag cloud list */
+
+ul#tags {
+  text-align: center;
+}
+ul#tags a {
+  text-transform: uppercase;
+}
+ul#tags li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* @end */
+
+/* @group tag cloud links */
+
+a.cloud1 {
   font-size: 80%;
 }
 
-#side li a.cloud2 {
+a.cloud2 {
   font-size: 110%;
   font-weight: bold;
 }
 
-#side li a.cloud3 {
+a.cloud3 {
   font-size: 130%;
 }
 
-#side li a.cloud4 {
+a.cloud4 {
   font-size: 155%;
   font-weight: bold;
 }
+
+/* @end */

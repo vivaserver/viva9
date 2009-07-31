@@ -5,6 +5,7 @@
 #prev_next .left {
   float: left;
 }
+
 #prev_next .right {
   float: right;
 }
@@ -67,6 +68,41 @@
   font-size: 110%;
 }
 
+.news p {
+  font-size: 110%;
+}
+
+.news p a {
+  font-weight: bold;
+}
+
+.news p > img, .news p > object {
+  margin: 0 auto;
+  display: block;
+}
+
+.news img, .news object {
+  border: 4px solid white;
+}
+
+/* @group sticky news */
+
+.sticky {
+  background-image: url(sticky.gif);
+}
+
+.sticky h1 a {
+  text-decoration: underline;
+}
+
+.sticky h1 a:hover {
+  text-decoration: none;
+}
+
+/* @end */
+
+/* @group tags list */
+
 .news ul.tags {
   padding: 5px 0;
   margin: 0 0 5px;
@@ -85,27 +121,13 @@
   padding-bottom: 3px;
   text-decoration: none;
 }
-
 .news ul.tags a:hover {
   text-decoration: underline;
 }
 
-.news p {
-  font-size: 110%;
-}
+/* @end */
 
-.news p a {
-  font-weight: bold;
-}
-
-.news p > img, .news p > object {
-  margin: 0 auto;
-  display: block;
-}
-
-.news img, .news object {
-  border: 4px solid white;
-}
+/* @group more links list */
 
 ul.more {
   margin: 0;
@@ -140,6 +162,8 @@ ul.more li.new {
   background: url(new.gif) no-repeat;
   padding-left: 20px;
 }
+
+/* @end */
 
 /* @group share links */
 
@@ -177,20 +201,41 @@ li.delicious {
 
 /* @end */
 
-.sticky {
-  background-image: url(sticky.gif);
-}
 
-.sticky h1 a {
+/* @group 5-column related news by tag */
+
+.related h3 {
+  font-size: 115%;
+}
+.related h3 a {
+  color: #000;
+  padding-left: 18px;
+  background: url(tag.gif) no-repeat left center;
+  font-weight: bold;
+  text-transform: uppercase;
   text-decoration: underline;
 }
 
-.sticky h1 a:hover {
-  text-decoration: none;
+.related ul {
+  list-style-type: none;
+  margin-left: 7px;
 }
 
-/* only used for individual news page */
+.related li {
+  line-height: 95%;
+  margin-bottom: 0.75em;
+}
+.related li a {
+  text-decoration: none;
+}
+.related li a:hover {
+  text-decoration: underline;
+}
+
+/* @end */
+
 .alone {
+  /* only used for individual news page */
   border: none;
   margin: 0;
 }
