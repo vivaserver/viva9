@@ -216,6 +216,8 @@ pre code {
   width: 336px;
   margin: 10px auto;
   margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px dotted silver;
 }
 
 .boxed {

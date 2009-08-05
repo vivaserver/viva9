@@ -76,7 +76,7 @@
   font-weight: bold;
 }
 
-.news p > img, .news p > object {
+.news p > img, .news p > object, .news p > embed {
   margin: 0 auto;
   display: block;
 }

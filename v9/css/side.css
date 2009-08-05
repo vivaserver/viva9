@@ -2,6 +2,11 @@
 /*       (c)2008 por Cristian R. Arroyo [cristian.arroyo@vivaserver.com.ar]       */
 /* ------------------------------------------------------------------------------ */
 
+#side .ad336 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 #side a {
   text-decoration: none;
 }
