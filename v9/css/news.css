@@ -76,12 +76,12 @@
   font-weight: bold;
 }
 
-.news p > img, .news p > object, .news p > embed {
+.news p > img, .news p > object, .news p > embed, .news p > iframe {
   margin: 0 auto;
   display: block;
 }
 
-.news img, .news object {
+.news img, .news object, .news iframe {
   border: 4px solid white;
 }
 
