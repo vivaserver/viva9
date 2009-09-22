@@ -68,6 +68,7 @@ a.hot {
 /* @group calendar */
 
 .cal {
+  margin: 0 5px;
   padding-bottom: 10px;
   clear: left;
 }

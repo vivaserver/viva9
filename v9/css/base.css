@@ -28,7 +28,7 @@ blockquote p {
 
 code {
   color: #000;
-  font: 110% 'courier new', courier, monospace;
+  font: inherit 'courier new', courier, monospace;
 }
 
 pre {
