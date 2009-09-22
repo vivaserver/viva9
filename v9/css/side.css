@@ -2,6 +2,10 @@
 /*       (c)2008 por Cristian R. Arroyo [cristian.arroyo@vivaserver.com.ar]       */
 /* ------------------------------------------------------------------------------ */
 
+a.hot {
+  font-weight: bold;
+}
+
 #side .ad336 {
   border-bottom: none;
   padding-bottom: 0;
@@ -33,7 +37,7 @@
   margin-bottom: 3px;
 }
 
-/* @group categories list */
+/* @group categories */
 
 #side ul.categories {
   font-variant: small-caps;
@@ -52,11 +56,7 @@
 
 /* @end */
 
-/* @group weekhot list */
-
-#weekhot a.hotter {
-  font-weight: bold;
-}
+/* @group weekhot */
 
 #weekhot li {
   line-height: 95%;  
@@ -64,3 +64,35 @@
 }
 
 /* @end */
+
+/* @group calendar */
+
+.cal {
+  padding-bottom: 10px;
+  clear: left;
+}
+
+.cal p {
+  background: url(date.png) no-repeat;
+  text-align: center;
+  margin: 0 10px;
+  width: 40px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 5px; 
+}
+
+.cal strong {
+  color: #000;
+  font-size: 150%;
+}
+
+.cal h1 {
+  font-size: 105%;
+  padding-top: 10px;
+}
+
+/* @end */
+
+
