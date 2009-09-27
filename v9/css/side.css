@@ -67,6 +67,27 @@ a.hot {
 
 /* @group calendar */
 
+.cal_links {
+  clear: left;
+  text-align: center;
+  font-size: 95%;
+}
+
+.cal_feed {
+  background: url(cal_feed.png) no-repeat 0 center;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.cal_add {
+  background: url(cal_add.png) no-repeat 0 center;
+  padding-left: 20px;
+  margin-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .cal {
   margin: 0 5px;
   padding-bottom: 10px;
