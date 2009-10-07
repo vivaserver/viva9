@@ -85,6 +85,11 @@
   border: 4px solid white;
 }
 
+.news img.right {
+  float: right;
+  margin: 10px 0 5px 20px;
+}
+
 /* @group sticky news */
 
 .sticky {
