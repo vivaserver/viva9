@@ -117,4 +117,91 @@ a.hot {
 
 /* @end */
 
+#mlitems {
+  background-color: #E9E9E9;
+  padding: 5px;
+  padding-top: 1em;
+}
+
+#mlitems li {
+  line-height: 95%;
+  margin-bottom: 1em;
+}
+
+#mlitems p {
+  text-align: right;
+  margin: 0;
+}
+
+#mlitems p a {
+  font-weight: bold;
+  background: url(add.png) no-repeat right;
+  padding-right: 20px;
+  padding-top: 1px;
+  margin-right: 10px;
+}
+
+
+ul#mlshops a {
+  float: left;
+  width: 36px;
+  height: 24px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+}
+
+.roundedT {
+  width: 382px;
+  height: 8px;
+  background: url(roundedT.png) no-repeat;
+  clear: both;
+}
+
+.roundedB {
+  width: 382px;
+  height: 8px;
+  background: url(roundedB.png) no-repeat;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+a.current {
+  background-color: #E9E9E9;
+}
+
+a.ar {
+  background-image: url(ar.png);
+}
+
+a.br {
+  background-image: url(br.png);
+}
+
+a.cl {
+  background-image: url(cl.png);
+}
+
+a.co {
+  background-image: url(co.png);
+}
+
+a.ec {
+  background-image: url(ec.png);
+}
+
+a.mx {
+  background-image: url(mx.png);
+}
+
+a.pe {
+  background-image: url(pe.png);
+}
+
+a.uy {
+  background-image: url(uy.png);
+}
+
+a.ve {
+  background-image: url(ve.png);
+}
 
