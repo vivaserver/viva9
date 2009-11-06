@@ -6,11 +6,6 @@ a.hot {
   font-weight: bold;
 }
 
-#side .ad336 {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
 #side a {
   text-decoration: none;
 }
@@ -20,7 +15,6 @@ a.hot {
 }
 
 #side h3 {
-  border-top: 1px dotted silver;
   text-transform: uppercase;
   font-size: 120%;
   padding-left: 10px;
@@ -117,6 +111,20 @@ a.hot {
 
 /* @end */
 
+/* @group planetashop */
+
+ul#mlshops a {
+  float: left;
+  width: 36px;
+  height: 24px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+}
+
+ul#mlshops a.current {
+  background-color: #E9E9E9;
+}
+
 #mlitems {
   background-color: #E9E9E9;
   padding: 5px;
@@ -141,15 +149,6 @@ a.hot {
   margin-right: 10px;
 }
 
-
-ul#mlshops a {
-  float: left;
-  width: 36px;
-  height: 24px;
-  text-indent: -9999px;
-  background-repeat: no-repeat;
-}
-
 .roundedT {
   width: 382px;
   height: 8px;
@@ -163,10 +162,6 @@ ul#mlshops a {
   background: url(roundedB.png) no-repeat;
   clear: both;
   margin-bottom: 20px;
-}
-
-a.current {
-  background-color: #E9E9E9;
 }
 
 a.ar {
@@ -204,4 +199,6 @@ a.uy {
 a.ve {
   background-image: url(ve.png);
 }
+
+/* @end */
 
