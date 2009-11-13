@@ -24,6 +24,7 @@
 .news {
   padding-bottom: 1.5em;
   font-size: 105%;
+  margin-bottom: 2em;
 }
 
 .news a, #side a, #footer a, #opine a {
@@ -244,9 +245,3 @@ ul.tags a.current {
 
 
 /* @end */
-
-.alone {
-  /* only used for individual news page */
-  border: none;
-  margin: 0;
-}

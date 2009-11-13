@@ -305,6 +305,10 @@ a.comments  {
   padding-bottom: 2px;
 }
 
+a.hot {
+  font-weight: bold;
+}
+
 a.new  {
   background: url(new.gif) no-repeat left;
   padding-left: 18px;
@@ -329,12 +333,17 @@ a.new  {
   padding-right: 20px;
 }
 
-#main .alone {
-  margin-top: 10px;
+ul.newslist {
+  list-style-type: none;
 }
 
-#side .alone {
-  margin-bottom: 15px;
+ul.newslist li {
+  line-height: 95%;  
+  margin-bottom: 1em;
+}
+
+ul.newslist li a:hover {
+  text-decoration: none;
 }
 
 .clear {
