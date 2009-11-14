@@ -152,19 +152,19 @@ ul.more li {
   padding-top: 2px;
   padding-bottom: 2px;
 }
-ul.more li.hour {
+.hour {
   background: url(hour.gif) no-repeat;
   padding-left: 20px;
 }
-ul.more li.comments {
+.comments {
   background: url(comments.gif) no-repeat;
   padding-left: 20px;
 }
-ul.more li.nocomments {
+.nocomments {
   background: url(nocomments.gif) no-repeat;
   padding-left: 20px;
 }
-ul.more li.new {
+.new {
   background: url(new.gif) no-repeat;
   padding-left: 20px;
 }
