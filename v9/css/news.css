@@ -22,7 +22,9 @@
 /* @end */
 
 .news {
-  padding-bottom: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  border-top: 4px solid white;
   font-size: 105%;
   margin-bottom: 2em;
 }
@@ -242,6 +244,17 @@ ul.tags a.current {
   text-decoration: underline;
 }
 
+/* @end */
 
+/* @group previously links */
+
+#previously {
+  border-top: 4px solid white;
+  padding-top: 1.5em;
+}
+
+#previously ul {
+  margin: 0;
+}
 
 /* @end */
