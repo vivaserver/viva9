@@ -82,7 +82,7 @@
   display: block;
 }
 
-.news img, .news object, .news iframe {
+.news img, .news object {
   border: 4px solid white;
 }
 
