@@ -258,3 +258,20 @@ ul.tags a.current {
 }
 
 /* @end */
+
+/* @group calendar */
+
+.news .cal a.hot {
+  font-weight: bold;
+}
+
+.news .cal a {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.news .cal a:hover {
+  text-decoration: none;
+}
+
+/* @end */
