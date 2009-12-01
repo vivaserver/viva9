@@ -261,6 +261,10 @@ ul.tags a.current {
 
 /* @group calendar */
 
+.news .cal p {
+  margin-left: 0;
+}
+
 .news .cal a.hot {
   font-weight: bold;
 }
