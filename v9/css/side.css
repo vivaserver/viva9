@@ -22,25 +22,6 @@
   font-weight: bold;
 }
 
-/* @group categories */
-
-#side ul.categories {
-  font-variant: small-caps;
-  color: silver;
-}
-
-#side ul.categories a {
-  font-size: 125%;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-#side ul.categories li {
-  list-style-type: none;
-}
-
-/* @end */
-
 /* @group calendar */
 
 .cal_links {

@@ -13,6 +13,7 @@
   text-transform: uppercase;
 }
 #prev_next a {
+  font-size: 90%;
   text-decoration: none;
 }
 #prev_next a:hover {
@@ -22,11 +23,8 @@
 /* @end */
 
 .news {
-  padding-top: 0.5em;
-  padding-bottom: 1em;
-  border-top: 4px solid white;
+  padding-bottom: 35px;
   font-size: 105%;
-  margin-bottom: 2em;
 }
 
 .news a, #side a, #footer a, #opine a {
@@ -38,9 +36,9 @@
 }
 
 .news h1 {
-  font-size: 225%;
+  font-size: 250%;
   font-weight: bold;
-  margin: 5px 0;
+  margin: 0 0 20px;
 }
 
 .news h1 a {
@@ -49,6 +47,10 @@
 }
 .news h1 a:hover {
   text-decoration: underline;
+}
+
+.fresh h1 {
+  font-size: 275%;
 }
 
 .news h5 {
@@ -98,11 +100,7 @@
 }
 
 .sticky h1 a {
-  text-decoration: underline;
-}
-
-.sticky h1 a:hover {
-  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* @end */
@@ -110,25 +108,28 @@
 /* @group tags list */
 
 ul.tags {
-  padding: 5px 0;
+  border-top: 1px solid silver;
+  padding: 5px 0 0 0;
   margin: 0 0 5px;
 }
 ul.tags li {
-  display: inline;
   font-size: 90%;
-  text-transform: uppercase;
+  display: inline;
   margin-right: 10px;
 }
 ul.tags a {
-  font-size: 110%;
-  padding-left: 18px;
   background: url(tag.gif) no-repeat;
   padding-top: 1px;
+  padding-left: 18px;
   padding-bottom: 3px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 ul.tags a:hover {
   text-decoration: underline;
+}
+.fresh ul.tags {
+  border-top: 2px solid silver;
 }
 
 /* @end */
@@ -152,9 +153,22 @@ ul.more li {
   padding-top: 2px;
   padding-bottom: 2px;
 }
+.date {
+  background: url(date.gif) no-repeat;
+  padding-left: 20px;
+}
 .hour {
   background: url(hour.gif) no-repeat;
   padding-left: 20px;
+}
+.category {
+  background: url(folder.png) no-repeat;
+  padding-left: 20px;
+}
+.category a {
+  font-variant: small-caps;
+  font-size: 115%;
+  font-weight: bold;
 }
 .comments {
   background: url(comments.gif) no-repeat;
@@ -249,8 +263,8 @@ ul.tags a.current {
 /* @group previously links */
 
 #previously {
-  border-top: 4px solid white;
-  padding-top: 1.5em;
+  border-top: 1px dotted silver;
+  padding-top: 10px;
 }
 
 #previously ul {
